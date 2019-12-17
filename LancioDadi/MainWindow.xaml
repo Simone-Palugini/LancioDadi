@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="depositphotos_107360116-stock-video-throwing-dice-in-slow-motion.jpg"/>
+        </Grid.Background>
+        <Label Content="Tiro dei dadi" HorizontalAlignment="Left" Margin="285,37,0,0" VerticalAlignment="Top" Height="49" Width="216" FontSize="32" FontWeight="Bold" FontFamily="Cooper Black"/>
+        <Button x:Name="btn_tira" Content="Tira i dadi" HorizontalAlignment="Left" Margin="319,323,0,0" VerticalAlignment="Top" Width="150" Height="43" FontSize="24" FontFamily="Cooper Black" FontWeight="Bold" Background="#FFC92F2F" Click="Btn_tira_Click"/>
+        <Label x:Name="lbl_tira" Content="" HorizontalAlignment="Left" Margin="374,253,0,0" VerticalAlignment="Top" Width="65" Height="43" FontSize="24" FontFamily="Cooper Black" FontWeight="Bold"/>
+        <Image x:Name="img_dado1" HorizontalAlignment="Left" Height="100" Margin="285,148,0,0" VerticalAlignment="Top" Width="100"/>
+
+        <Image x:Name="img_dado2" HorizontalAlignment="Left" Height="100" Margin="401,148,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
